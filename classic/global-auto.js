@@ -1,4 +1,4 @@
-var path = "data/0002-steam-gpu-popularity.json"; // 数据源
+var path = "data/0003-2022-fortune-500-king.json"; // 数据源
 var obj = getObjFromJSON(path); // 数据对象
 var isSortInAdvance = obj.sia; // 数据核心预处理设置
 var pairs; // 数据对象核心
@@ -17,7 +17,7 @@ window.onload = function () {
 
 document.onkeydown = function (event) {
     /* 紧迫度越高，则动画持续时间越短。 */
-    var 紧迫度 = 1.25;
+    var 紧迫度 = 1.5;
     stylify(e("#billboard"), "--紧迫度: " + 紧迫度 + ";");
     switch (event.code) {
         case "KeyA":

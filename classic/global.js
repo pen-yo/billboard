@@ -23,15 +23,39 @@ function autoPlay() {
             </div>
             <div class="value">`+ p.value + `</div>
         `;
-    Array.from(e(".item")).forEach(i => {
-        i.setAttribute("class", "item");
-        i.offsetWidth = i.offsetWidth;
-        i.setAttribute("class", "item untop");
-    });
+    const LIM = 18;
+    if (bit > LIM)
+        for (let lite = Array.from(e(".item")), c = 0; c < LIM; c++) {
+            lite[c].setAttribute("class", "item");
+            lite[c].offsetWidth = lite[c].offsetWidth;
+            lite[c].setAttribute("class", "item untop");
+        }
+    else
+        Array.from(e(".item")).forEach(i => {
+            i.setAttribute("class", "item");
+            i.offsetWidth = i.offsetWidth;
+            i.setAttribute("class", "item untop");
+        });
     e("#data").insertBefore(i, e("#data").firstChild);
-    Array.from(e(".item")).forEach(i => {
-        stylify(i, "--width: " + (parseFloat(i.getElementsByClassName("value")[0].innerText, 10) / biggest) + ";");
-    });
+    var weight = [
+        1.250, 1.200, 1.150, 1.100, 1.050,
+        1.020, 0.990, 0.960, 0.930, 0.900,
+        0.880, 0.860, 0.840, 0.820, 0.800,
+        0.785, 0.770, 0.755, 0.740, 0.725
+    ];
+    if (bit > LIM) {
+        let tBit = 0;
+        for (let lite = Array.from(e(".item")), c = 0; c < LIM; c++) {
+            var power = Number(lite[c].getElementsByClassName("value")[0].innerText) / biggest;
+            stylify(lite[c], "--width: " + (power * weight[tBit++]) + ";");
+        }
+    } else {
+        let tBit = 0;
+        Array.from(e(".item")).forEach(i => {
+            var power = Number(i.getElementsByClassName("value")[0].innerText) / biggest;
+            stylify(i, "--width: " + (power * weight[tBit++]) + ";");
+        });
+    }
     if (p.hasOwnProperty("thumb"))
         stylify(e("#thumb"), "background-image: url(" + p.thumb + ");");
 }
@@ -56,8 +80,8 @@ function getObjFromJSON(filePath) {
 }
 
 function quickGeneratePairs(keys, values) {
-    var keyArr = keys.split(",");
-    var valueArr = values.split(",");
+    var keyArr = keys.split("||");
+    var valueArr = values.split("||");
     if (keyArr.length != valueArr.length)
         return "Invalid input!";
     var pairs = "";
