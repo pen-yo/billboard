@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "思源黑体";
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.lay-in-row * {
+  margin-right: 1rem;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "2023 年全球最畅销手游（Top 20）",
+  "unit": "美元",
+  "source": "AppMagic",
+  "needSort": false,
+  "data": [
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "梦幻花园",
+      "subtitle": "428亿",
+      "description": "梦幻般的花园冒险，种下快乐的种子"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "State of Survival",
+      "subtitle": "435亿",
+      "description": "生存危机的挑战，建立最后的人类堡垒"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "万国觉醒",
+      "subtitle": "442亿",
+      "description": "多国争霸的壮丽篇章，打造属于你的文明"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "Free Fire",
+      "subtitle": "443亿",
+      "description": "火爆的生存竞技，燃烧你的战斗激情"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "Puzzles & Survival",
+      "subtitle": "475亿",
+      "description": "解谜与生存的结合，探索未知的乐趣"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "梦幻家园",
+      "subtitle": "484亿",
+      "description": "属于你的梦幻庄园，打造心中的乐园"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "部落冲突",
+      "subtitle": "496亿",
+      "description": "部落征战的策略乐园，打造不可一世的王者"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "FGO",
+      "subtitle": "500亿",
+      "description": "英灵召唤的冒险之旅，跨越历史的召唤师"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "赛马娘:PrettyDerby",
+      "subtitle": "545亿",
+      "description": "热血赛马的青春激情，马场上的竞速传奇"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "天堂W",
+      "subtitle": "586亿",
+      "description": "经典MMORPG的巅峰之作，勇者的传奇之旅"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "怪物弹珠",
+      "subtitle": "589亿",
+      "description": "弹射对战的盛宴，齐聚萌宠与冒险"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "梦幻三国",
+      "subtitle": "601亿",
+      "description": "重温三国故事，打造齐天大圣的传奇"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "Pokemon GO",
+      "subtitle": "703亿",
+      "description": "现实增强游戏的开创者，捕捉神奇宝贝的梦想"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "三国志:战略版",
+      "subtitle": "712亿",
+      "description": "三国策略再现，指挥千军万马的策略盛宴"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "Candy Crush Saga",
+      "subtitle": "1,026亿",
+      "description": "休闲益智游戏的佼佼者，成就了传奇"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "原神",
+      "subtitle": "1,561亿",
+      "description": "开放世界冒险，风靡全球的奇幻之旅"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "PUBG Mobile",
+      "subtitle": "1,725亿",
+      "description": "吃鸡游戏的经典，持续吸引大量玩家"
+    },
+    {
+      "illustration": {
+        "url": ""
+      },
+      "title": "王者荣耀",
+      "subtitle": "2,223亿",
+      "description": "MOBA游戏巨头，无愧为收入冠军"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "牙膏厂历代酷睿旗舰单核跑分对比",
+  "unit": null,
+  "source": "网络",
+  "needSort": true,
+  "data": [
+    {
+      "title": "Netburst-90nm Pentium 4 supporting HT Technology 3.20E GHz @ 4.00GHz",
+      "power": 93
+    },
+    {
+      "title": "Netburst-65nm Pentium Extreme Edition 965 @ 4.80GHz",
+      "power": 145
+    },
+    {
+      "title": "Core-65nm Core 2 Extreme X6800 @ 3.67GHz",
+      "power": 314
+    },
+    {
+      "title": "Core-65nm Core 2 Extreme QX6850 @ 4.00GHz",
+      "power": 353
+    },
+    {
+      "title": "Core-45nm Core 2 Extreme QX9770 @ 4.20GHz",
+      "power": 378
+    },
+    {
+      "title": "Nehalem-45nm Core i7-975 Extreme Edition @ 4.50GHz",
+      "power": 378
+    },
+    {
+      "title": "Westmere-32nm Core i7-980X Extreme Edition @ 4.67GHz",
+      "power": 400
+    },
+    {
+      "title": "SandyBridge-32nm Core i7-3970X Extreme Edition @ 4.50GHz",
+      "power": 431
+    },
+    {
+      "title": "IvyBridge-22nm Core i7-4960X Extreme Edition @ 4.50GHz",
+      "power": 455
+    },
+    {
+      "title": "Haswell-22nm Core i7-5960X Extreme Edition @ 4.70GHz",
+      "power": 507
+    },
+    {
+      "title": "Broadwell-14nm Core i7-6950X Extreme Edition @ 4.60GHz",
+      "power": 584
+    },
+    {
+      "title": "SkyLake-14nm Core i9-7980XE Extreme Edition @ 4.90GHz",
+      "power": 585
+    },
+    {
+      "title": "SkyLake-14nm Core i9-9990XE Extreme Edition @ 5.10GHz",
+      "power": 608
+    },
+    {
+      "title": "CascadeLake-14nm Core i9-10980XE Extreme Edition @ 5.50GHz",
+      "power": 620
+    },
+    {
+      "title": "CypressCove-14nm Core i9-11900K @ 5.3GHz",
+      "power": 701
+    },
+    {
+      "title": "GoldenCove-10nm Core i9-12900KS @ 5.40GHz",
+      "power": 877
+    },
+    {
+      "title": "RaptorCove-10nm Core i9-13900K @ 5.9GHz",
+      "power": 982
+    }
+  ]
+}
